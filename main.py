@@ -33,7 +33,7 @@ PRICE_TEXT = 1
 PRICE_VOICE = 5 
 PRICE_IMAGE = 30
 MAX_HISTORY_LENGTH = 8 
-DB_PATH = '/tmp/my_bot_database.db' # <-- ИСПРАВЛЕННЫЙ ПУТЬ ДЛЯ RENDER 
+DB_PATH = '/tmp/my_bot_database.db'
 
 # --- ФУНКЦИИ DB (База данных) ---
 def init_db():
@@ -296,4 +296,5 @@ time.sleep(10)
 print("Бот (Jvit) запускается...")
 
 bot.infinity_polling()
+
 
